@@ -1,0 +1,12 @@
+# Normalize line endings for cross-platform consistency.
+* text=auto eol=lf
+
+*.go      text eol=lf
+*.md      text eol=lf
+*.mod     text eol=lf
+*.yml     text eol=lf
+Makefile  text eol=lf
+LICENSE   text eol=lf
+
+# Windows scripts keep CRLF.
+*.ps1     text eol=crlf
